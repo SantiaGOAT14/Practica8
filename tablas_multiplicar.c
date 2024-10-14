@@ -1,31 +1,4 @@
 #include <stdio.h>
-#include <math.h>
-
-void mult_for(int n) 
-{
-    int resp;
-
-    for (int i = 1; i <= 10; i++) {
-        resp = n * i;
-        printf("%d * %d = %d\n", n, i, resp);
-    }
-}
-
-int main() {
-    int n;
-
-    printf("Dame el número: "); 
-    scanf("%d", &n); 
-
-    mult_for(n);
-    return 0;
-}
-
-/*Alfonso Francisco De Abiega L'Eglisse
-Laboratorio practica 8
-tablas de multiplicar*/
-
-#include <stdio.h>
 #include <stdlib.h>
 
 void mult_for(int n)
@@ -37,7 +10,7 @@ void mult_for(int n)
     resp = n * i;
     printf("%d * %d = %d\n", n, i, resp);
   }
-  //return 0;
+
 }
 
 void mult_while(int n)
